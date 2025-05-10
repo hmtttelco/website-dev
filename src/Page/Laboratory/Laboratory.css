@@ -1,0 +1,89 @@
+@font-face {
+	font-family: "Jakarta-Bold";
+	src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Jakarta-Regular";
+	src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+body {
+	justify-content: center;
+}
+
+.base-lab-2 {
+	background-color: white;
+	padding-top: 4px;
+}
+.sub-heading-lab {
+	font-size: 54px;
+	font-family: "Jakarta-Bold";
+	background: linear-gradient(90deg, #ddd -2.88%, #0089d4 101.15%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.heading-lab {
+	font-size: 24px;
+	font-family: "Jakarta-Bold";
+	background: linear-gradient(270deg, white, #009bd8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.bodycopy-lab {
+	font-family: "Jakarta-Regular";
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 36px;
+	line-height: 1.5;
+}
+.sub-heading-lab-2 {
+	font-size: 54px;
+	font-family: "Jakarta-Bold";
+	background: linear-gradient(90deg, black -2.88%, #0089d4 101.15%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.heading-lab-2 {
+	font-size: 24px;
+	font-family: "Jakarta-Bold";
+	background: linear-gradient(270deg, black, #009bd8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.bodycopy-lab-2 {
+	font-family: "Jakarta-Regular";
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 36px;
+	line-height: 1.5;
+}
+.center {
+	margin-left: 72px;
+	margin-right: 128px;
+}
+
+.lab-box-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 32px;
+}

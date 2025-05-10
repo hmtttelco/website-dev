@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-SemiBold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jakarta-Medium";
+  src: url("/public/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+}
+
+.lab-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.aboutus-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  gap: 8rem;
+}
+
+.activity-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  gap: 8rem;
+}
+
+.title {
+  font-family: "Jakarta-SemiBold";
+  font-size: 20px;
+  color: #7a7a7a;
+  user-select: none;
+}
+
+.lab-name {
+  font-family: "Jakarta-Bold";
+  background: linear-gradient(90deg, #ddd -2.88%, #0089d4 101.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  margin: 0;
+  user-select: none;
+}
+
+.header-placeholder {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 16px;
+  border-radius: 16px;
+}
+
+.logolab-placeholder {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+
+  /* margin-right: 64px; */
+  /* padding: 16px; */
+}
+.title-container {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 64px;
+}
+
+.logolab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutus-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 840px;
+  gap: 3rem;
+  /* padding: 32px; */
+}
+
+.content-wrapper {
+  height: calc(100vh - 9.688rem); /* Subtract the height of the header */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 128px;
+  /* height: 100vh; */
+}
+
+.wrapper-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 64px;
+  margin-bottom: 128px;
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+.aboutus {
+  font-family: "Jakarta-Medium";
+  font-size: 24px;
+  color: white;
+  margin: 0;
+}
+
+.aboutus-grey {
+  font-family: "Jakarta-Medium";
+  font-size: 18px;
+  color: #969696;
+  margin: 0;
+}
+
+.parent-photocard {
+  /* background: red; */
+  height: 320px;
+  width: 244px;
+}
+.photocard {
+  /* background: green; */
+  height: 277px;
+  width: 244px;
+}
+.photo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.nama {
+  font-family: "Jakarta-Bold";
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.jabatan {
+  font-family: "Jakarta-Medium";
+  font-size: 12px;
+  color: #868688;
+  margin: 0;
+}
+
+.photocard-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.activity-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-right: 16px;
+  border-radius: 16px;
+}
+
+.wrapper-activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 100vh;
+}
+
+.activity-copy {
+  font-family: "Jakarta-Medium";
+  font-size: 16px;
+  color: white;
+  width: 600px;
+}
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  /* padding: 32px; */
+}
+.content-wrapper-activity {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8rem;
+  justify-content: center; /* Center vertically */
+}
+
+.gallery-placeholder-sm {
+  width: 640px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.gallery-placeholder-lg {
+  width: 1260;
+  height: 720px;
+  object-fit: cover;
+}
+.container-duo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}

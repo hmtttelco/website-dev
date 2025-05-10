@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Semibold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+.highlight-parent .headline {
+  font-size: 32px;
+  font-family: "Jakarta-Bold";
+  color: black;
+  margin-bottom: 16px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.highlight-parent {
+  width: 1200px;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+  /* position: relative; */
+}
+
+.placeholder {
+  background: white;
+  width: 700px;
+  height: 100%;
+
+  border-radius: 16px 0px 0px 16px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container only takes the space of the image */
+}
+
+.image-text {
+  width: 200px;
+  height: 600px;
+  position: absolute;
+  padding: 5px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: black;
+  border-radius: 5px;
+}
+
+.highlight-parent .category {
+  width: 70%;
+  color: #6e6e7c;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-family: "Jakarta-Bold";
+}
+
+.highlight-parent .text-headline {
+  color: black;
+  font-size: 16px;
+  font-family: "Jakarta-SemiBold";
+  text-align: justify;
+}
+
+.text-info-headline {
+  /* position: absolute; */
+  /* bottom: 32px;
+  left: 24px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  width: 600px;
+  border-radius: 0px 16px 16px 0px;
+  background: white;
+}
+
+.article-tile-container {
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: center;
+  /* margin-bottom: 32px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 kartu per baris */
+  margin-top: 64px;
+}
+
+.container {
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #009bd8,
+      0 0 40px #009bd8, 0 0 50px #009bd8, 0 0 60px #009bd8, 0 0 70px #009bd8;
+  }
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #009bd8, 0 0 40px #009bd8,
+      0 0 50px #009bd8, 0 0 60px #009bd8, 0 0 70px #009bd8, 0 0 80px #009bd8;
+  }
+}
+
+.article-header {
+  background: linear-gradient(270deg, white, #009bd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  font-family: "Jakarta-Bold";
+  /* margin-left: 154px; */
+  margin: 0px 0px 0px 120px;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #009bd8, 0 0 30px #009bd8,
+		0 0 40px #009bd8, 0 0 30px #009bd8, 0 0 20px #009bd8, 0 0 10px #009bd8; */
+}
+
+.highlight-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,79 @@
+@font-face {
+	font-family: "Jakarta-Bold";
+	src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Jakarta-Regular";
+	src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+.introbase {
+	background-color: white;
+	padding-top: 16px;
+	padding-bottom: 147px;
+}
+.heading {
+	font-size: 54px;
+	font-family: "Jakarta-Bold";
+	margin: 48px;
+	color: black;
+	margin-top: 0;
+}
+
+.bodycopy-landing {
+	width: 558px;
+	height: 158px;
+	flex-shrink: 0;
+	font-family: "Jakarta-Regular";
+	color: black;
+	font-size: 20px;
+	margin: 48px;
+	line-height: 30px;
+	margin-right: 116px;
+	text-align: justify;
+}
+
+.row-container {
+	justify-content: center;
+	align-items: left;
+	display: flex;
+	flex-direction: row;
+	margin-top: 124px;
+}
+
+.aboutus-img {
+	width: 594px;
+	height: 344px;
+	border-radius: 32px;
+}
+
+.viewmore {
+	width: 172px;
+	height: 33px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	border: 2px solid #0781c4;
+	background-color: transparent;
+	color: #0781c4;
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 48px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	transition: opacity 0.3s;
+}
+
+.text-bold {
+	font-family: "Jakarta-Bold";
+}

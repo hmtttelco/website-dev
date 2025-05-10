@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Italic";
+  src: url("/public/fonts/PlusJakartaSans-Italic.ttf") format("truetype");
+}
+.lab-box2 {
+  width: 320px;
+  height: 320px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+  margin: 32px;
+  padding: 24px;
+  box-shadow: 0px 4px 12px #000000;
+}
+
+.content {
+  /* margin-left: 24px; */
+  margin-top: 0;
+}
+.text-bold2 {
+  color: black;
+  font-family: "Jakarta-Bold";
+  font-size: 32px;
+  margin-bottom: 8px;
+  /* margin-bottom: 16px; */
+}
+.text-regular2 {
+  color: black;
+  font-family: "Jakarta-Regular";
+  font-size: 14px;
+  width: 300px;
+  line-height: 1.5;
+}
+
+.text-italic-more2 {
+  color: black;
+  font-family: "Jakarta-Italic";
+  font-size: 14px;
+  width: 280px;
+  line-height: 1.5;
+  margin-top: 54px;
+}
+/* 
+.icon-placeholder {
+	width: 54px;
+	height: 54px;
+	object-fit: scale-down;
+	margin-bottom: 18px;
+} */

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jakarta-SemiBold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+body {
+  background-color: rgb(14, 14, 14);
+}
+.welcome {
+  margin-top: 96px;
+  text-align: center;
+
+  height: 100vh;
+}
+
+.welcome-text {
+  font-family: "Jakarta-Bold";
+  background: linear-gradient(270deg, white, #009bd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  margin: 0px;
+  text-align: center;
+}
+
+.welcome-detail-text {
+  font-family: "Jakarta-Regular";
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.aboutus-button {
+  border-color: transparent;
+  color: white;
+  background-color: #0781c4;
+  font-family: "Jakarta-Regular";
+  font-size: 24px;
+  padding: 10px 32px 10px 32px;
+  border-radius: 20px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.base-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 500px;
+  height: 500px;
+}
+
+.article-base {
+  background-color: white;
+}
+
+.btowtext-h1 {
+  background: linear-gradient(270deg, black, #009bd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Jakarta-Bold";
+  font-size: 64px;
+  margin: 0;
+}
+.btowtext-h2 {
+  background: linear-gradient(270deg, black, #009bd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Jakarta-Bold";
+  font-size: 32px;
+  padding-top: 32px;
+}
+
+.article-head {
+  text-align: center;
+}

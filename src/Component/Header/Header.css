@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "Jakarta-Regular";
+	src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Jakarta-Semibold";
+	src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+.navbar {
+	width: 100%;
+}
+.nav-base {
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.base-2 {
+	display: flex;
+	flex-direction: row;
+	margin-right: 78px;
+	justify-content: space-between;
+	background: transparent;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.nav-list {
+	margin-right: 32px;
+	font-family: "Jakarta-Regular";
+	color: white;
+	text-decoration: none;
+}
+.nav-list-bold {
+	margin-right: 32px;
+	font-family: "Jakarta-SemiBold";
+	color: white;
+	text-decoration: none;
+}
+.navIcon {
+	width: 256px;
+	margin-top: 7px;
+	margin-left: 78px;
+}

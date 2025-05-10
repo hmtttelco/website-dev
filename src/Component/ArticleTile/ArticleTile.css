@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Semibold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+.Parent {
+  padding: 0;
+}
+
+.Card {
+  background: white;
+  width: 300px;
+  height: 360px;
+
+  margin-bottom: 30px;
+  border-radius: 24px;
+  box-shadow: 2px 3px 10px #000000;
+}
+
+.PhotoHolder {
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  border-radius: 24px 24px 0 0;
+  padding: 0;
+  margin: 0;
+}
+
+.PhotoHolder img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.Desc {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  line-height: 0.9;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.Desc .Name {
+  margin: 0;
+}
+
+.Desc .Category {
+  color: #6e6e73;
+  font-size: 12px;
+  font-family: "Jakarta-Bold";
+}
+
+.Desc .Headline {
+  color: black;
+  font-size: 19px;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.Desc .Date {
+  font-style: "Jakarta-Bold";
+  font-size: 14px;
+  color: #6e6e73;
+}
+
+.Desc .Location {
+  color: yellow;
+}
+
+.text-button {
+  text-decoration: none;
+}
+
+.text-button:hover {
+  text-decoration: none;
+}
+
+.text-button2 {
+  text-decoration: none;
+  color: white;
+}
+
+.text-button2:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+} */
+
+.no-underline {
+  text-decoration: none;
+}
+.no-underline:hover {
+  text-decoration: none;
+}

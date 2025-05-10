@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-SemiBold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+.headingKabinet-base {
+  width: 100%;
+  height: calc(100vh - 9.688rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-kabinet-text {
+  font-family: "Jakarta-Bold";
+  background: linear-gradient(45deg, #ffff 0%, #0781c4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 66px;
+  text-align: center;
+}
+
+.aboutus-base {
+  height: 1130px;
+  background-color: white;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.aboutus-row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.aboutus-text {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: left;
+  width: 640px;
+  margin: 0;
+}
+
+.aboutus-heading-text {
+  font-size: 40px;
+  font-family: "Jakarta-Bold";
+  color: black;
+  margin-top: 0px;
+}
+
+.aboutus-subheading-text {
+  font-size: 20px;
+  font-family: "Jakarta-SemiBold";
+  color: #555;
+  margin-top: 32px;
+}
+
+.kabinet-img-placeholder {
+  width: 630px;
+  height: 404px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 32px 0px 0px 0px;
+}
+.aboutus-image-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutus-bodycopy-text {
+  font-size: 16px;
+  line-height: 28px;
+  width: 540px;
+  font-family: "Jakarta-Regular";
+  color: black;
+  text-align: justify;
+}
+
+.visimisi-base {
+  background-color: white;
+  display: flex;
+  flex-direction: column; /* Stack content in a column */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+.visimisi-headling {
+  font-family: "Jakarta-Bold";
+  background: linear-gradient(90deg, #000 -2.88%, #0781c4 101.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.visimisi-box1 {
+  width: 1308px;
+  border-radius: 41px 41px 0px 0px;
+  background-color: black;
+  text-align: left;
+  padding-top: 36px;
+  padding-left: 54px;
+  padding-bottom: 54px;
+}
+
+.visimisi-subheading {
+  color: #fff;
+  font-family: "Jakarta-Bold";
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.visi-headline {
+  background: linear-gradient(90deg, #fff 0%, #0781c4 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Jakarta-Bold";
+  font-size: 128px;
+  line-height: normal;
+  margin: 0;
+}
+
+.visi-body {
+  width: 1155px;
+  color: #fff;
+  text-align: justify;
+  font-family: "Jakarta-Regular";
+  font-size: 18px;
+  font-style: normal;
+  line-height: 36px; /* 150% */
+}
+
+.visimisi-box2 {
+  width: 1308px;
+  border-radius: 0px 0px 41px 41px;
+  background-color: #ececec;
+  text-align: left;
+  padding-top: 36px;
+  padding-left: 54px;
+  padding-bottom: 54px;
+}
+.visi-headline-black {
+  background: linear-gradient(90deg, black 0%, #0781c4 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Jakarta-Bold";
+  font-size: 128px;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.visimisi-subheading-black {
+  color: black;
+  font-family: "Jakarta-Bold";
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.misi-list {
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  flex-direction: row;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+.misi-number {
+  background: linear-gradient(180deg, #0781c4 0%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Jakarta-Bold";
+  font-size: 64px;
+  margin: 0px;
+  margin-right: 16px;
+}
+
+.misi-bodycopy {
+  font-family: "Jakarta-Regular";
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+  display: flex;
+}
+
+.misi-base {
+  display: flex;
+  flex-direction: row;
+}
+
+.statistik-base {
+  background-color: black;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 32px;
+  height: 300px;
+}
+
+.nomor {
+  font-family: "Jakarta-Bold";
+  font-size: 128px;
+  color: white;
+  margin: 0;
+}
+
+.jenis {
+  font-family: "Jakarta-Regular";
+  font-size: 24px;
+  color: white;
+  margin: 0;
+}
+
+.kebawah {
+  margin: 0px 184px 0px 184px;
+}

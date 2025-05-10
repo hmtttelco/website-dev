@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Jakarta-Regular";
+  src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Semibold";
+  src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+.article-header {
+  display: block;
+}
+
+.category {
+  color: white;
+  font-size: 12px;
+  font-family: "Jakarta-Semibold";
+}
+
+.date {
+  color: white;
+  font-size: 14px;
+  font-family: "Jakarta-Semibold";
+}
+
+.news-headline {
+  color: white;
+  font-size: 54px;
+  font-family: "Jakarta-Bold";
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.component-content {
+  /* margin-left: auto;
+	  margin-right: auto; */
+  width: 100%;
+}
+
+.picture-image {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  margin-top: 32px;
+  object-fit: cover;
+}
+
+.component-content-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.component-bodycopy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  margin-top: 32px;
+}
+
+.bodycopy {
+  color: white;
+  font-family: "Jakarta-Regular";
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 32px;
+  line-height: 30px;
+}

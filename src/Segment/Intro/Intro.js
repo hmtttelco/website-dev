@@ -20,7 +20,7 @@ const Intro = () => {
 						View More
 					</a>
 				</div>
-				<img className="aboutus-img" src="./img/inkab.jpg" alt="foto inkab" />
+				<img className="aboutus-img" src="./img/fotoinkab.png" alt="foto inkab" />
 			</div>
 		</div>
 	);

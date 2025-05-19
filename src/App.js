@@ -13,6 +13,7 @@ import LabDetail from "./Page/LabDetail/LabDetail";
 function App() {
   return (
     <div>
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Welcome />}></Route>

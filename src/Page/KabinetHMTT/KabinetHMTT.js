@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../Component/Header/Header";
+import Footer from "../../Component/Footer/Footer";
 import "./KabinetHMTT.css";
 import { useEffect } from "react";
 
@@ -70,7 +71,7 @@ const KabinetHMTT = () => {
 				<p className="visimisi-headling">Visi & Misi</p>
 				<div className="visimisi-box1">
 					<p className="visimisi-subheading">Visi & Misi</p>
-					<p className="visi-headline">VISI</p>
+					<p className="visi-headline">Visi</p>
 					<p className="visi-body">
 						Terwujudnya HMTT sebagai wadah pengembangan potensi mahasiswa S1
 						Teknik Telekomunikasi yang bersifat inovatif dan kreatif, serta
@@ -137,21 +138,31 @@ const KabinetHMTT = () => {
 			</div>
 
 			<div className="statistik-base">
-				<div className="kebawah">
-					<p className="nomor">219</p>
-					<p className="jenis">Anggota</p>
-				</div>
+				<div className="statistik-base-kebawah">
+					<div className="kebawah">
+						<p className="nomor">251</p>
+						<p className="jenis">Anggota</p>
+					</div>
 
-				<div className="kebawah">
-					<p className="nomor">5</p>
-					<p className="jenis">Kementrian</p>
+					<div className="kebawah">
+						<p className="nomor">5</p>
+						<p className="jenis">Kementrian</p>
+					</div>
 				</div>
-
-				<div className="kebawah">
-					<p className="nomor">13</p>
-					<p className="jenis">Departemen</p>
+				
+				<div className="statistik-base-kebawah">
+					<div className="kebawah">
+						<p className="nomor">13</p>
+						<p className="jenis">Departemen</p>
+					</div>
+				
+					<div className="kebawah">
+						<p className="nomor">3</p>
+						<p className="jenis">Komisi</p>
+					</div>
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	);
 };

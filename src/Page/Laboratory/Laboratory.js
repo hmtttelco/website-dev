@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../Component/Header/Header";
 import LabBox from "../../Component/LabBox/LabBox";
 import LabBox2 from "../../Component/LabBox2/LabBox2";
+import Footer from "../../Component/Footer/Footer";
 import "./Laboratory.css";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -9,17 +10,13 @@ import { getLab } from "../LabDetail/action";
 import { truncateText } from "../../utils/truncate";
 const laboratoryList = [
   {
-    LabName: "Jaringan",
+    LabName: "SPICE",
     icon: "./icon/cloudLogo.png",
     desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
   },
+  
   {
-    LabName: "Sinyal",
-    icon: "./icon/signalLogo.png",
-    desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
-  },
-  {
-    LabName: "Transmisi",
+    LabName: "ICON",
     icon: "./icon/transLogo.png",
     desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
   },
@@ -51,11 +48,11 @@ const Laboratory = () => {
         <div className="base-lab">
           <div>
             <p className="heading-lab">Laboratory</p>
-            <p className="sub-heading-lab">Network Laboratory</p>
+            <p className="sub-heading-lab">Intelligent Communications and Networks (ICON)</p>
             <div className="center">
               <p className="bodycopy-lab">
-                Laboratorium Jaringan Membahas Teknologi dalam menghubungkan
-                satu perangkat dengan perangkat lain
+               Laboratorium ICON fokus pada pengembangan sistem komunikasi cerdas serta 
+               jaringan telekomunikasi modern.
               </p>
             </div>
             <div className="lab-box-row">
@@ -80,11 +77,11 @@ const Laboratory = () => {
         <div className="base-lab-2">
           <div>
             <p className="heading-lab-2">Laboratory</p>
-            <p className="sub-heading-lab-2">Transmission Laboratory</p>
+            <p className="sub-heading-lab-2">Signal Processing, Information Security, and Computer Engineering (SPICE)</p>
             <div className="center">
               <p className="bodycopy-lab-2">
-                Laboratorium Jaringan Membahas Teknologi dalam menghubungkan
-                satu perangkat dengan perangkat lain
+                Laboratorium SPICE berfokus pada bidang pengolahan sinyal digital, keamanan informasi (cybersecurity), serta komputasi 
+                dan rekayasa perangkat lunak dalam konteks sistem komunikasi dan teknik elektro.
               </p>
             </div>
             <div className="lab-box-row">
@@ -106,37 +103,10 @@ const Laboratory = () => {
           </div>
 
           {/* <div className="lab-type"></div> */}
-        </div>
-        <div className="base-lab">
-          <div>
-            <p className="heading-lab">Laboratory</p>
-            <p className="sub-heading-lab">Signal Laboratory</p>
-            <div className="center">
-              <p className="bodycopy-lab">
-                Laboratorium Jaringan Membahas Teknologi dalam menghubungkan
-                satu perangkat dengan perangkat lain
-              </p>
-            </div>
-            <div className="lab-box-row">
-              {lab
-                .filter(
-                  (laboratoryLists) => laboratoryLists.labType === "signal"
-                )
-                .map((laboratoryLists) => (
-                  <LabBox
-                    key={laboratoryLists.lab_id}
-                    namaLab={laboratoryLists.name}
-                    labdesc={truncateText(laboratoryLists.about, 100)}
-                    iconURL={laboratoryLists.logo_url}
-                    id={laboratoryLists.lab_id}
-                  />
-                ))}
-            </div>
-          </div>
-
-          {/* <div className="lab-type"></div> */}
+        
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

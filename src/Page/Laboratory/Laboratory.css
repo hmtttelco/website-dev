@@ -44,7 +44,7 @@ body {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 36px;
-	line-height: 1.5;
+	line-height: 3;
 }
 .sub-heading-lab-2 {
 	font-size: 54px;
@@ -54,7 +54,7 @@ body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin: 0;
-	padding: 0;
+	padding: 0px 20px;
 	text-align: center;
 }
 
@@ -74,7 +74,7 @@ body {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 36px;
-	line-height: 1.5;
+	line-height: 3;
 }
 .center {
 	margin-left: 72px;

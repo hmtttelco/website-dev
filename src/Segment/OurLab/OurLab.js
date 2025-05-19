@@ -5,20 +5,16 @@ import LabBox from "../../Component/LabBox/LabBox";
 const OurLab = () => {
 	const laboratoryList = [
 		{
-			LabName: "Jaringan",
-			icon: "./icon/cloudLogo.png",
-			desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
-		},
-		{
-			LabName: "Sinyal",
-			icon: "./icon/signalLogo.png",
-			desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
-		},
-		{
-			LabName: "Transmisi",
+			LabName: "Intelligent Communications and Networks ",
 			icon: "./icon/transLogo.png",
-			desc: "Laboratorium Jaringan Membahas Teknologi dalam menghubungkan satu perangkat dengan perangkat lain",
+			desc: "Kelompok Keahlian ICON fokus pada pengembangan sistem komunikasi cerdas serta jaringan telekomunikasi modern. Laboratorium di Kelompok Keahlian ini meneliti berbagai teknologi terkini dalam komunikasi wireless, jaringan komputer, manajemen jaringan, dan teknologi cerdas yang diaplikasikan pada sistem komunikasi",
 		},
+		{
+			LabName: "Signal Processing, Information Security, and Computer Engineering",
+			icon: "./icon/cloudLogo.png",
+			desc: "Laboratorium SPICE berfokus pada bidang pengolahan sinyal digital, keamanan informasi (cybersecurity), serta komputasi dan rekayasa perangkat lunak dalam konteks sistem komunikasi dan teknik elektro.",
+		},
+		
 	];
 	return (
 		<div className="base-lab">
@@ -28,7 +24,7 @@ const OurLab = () => {
 				<div className="center">
 					<p className="bodycopy-lab">
 						Tidak hanya belajar teori, Pembelajaran dilakukan juga secara
-						praktik. S1 Teknik Telekomunikasi memiliki tiga laboratorium
+						praktik. S1 Teknik Telekomunikasi memiliki dua laboratorium
 						peminatan dimana tiap peminatannya terdiri dari beberapa
 						laboratorium.
 					</p>

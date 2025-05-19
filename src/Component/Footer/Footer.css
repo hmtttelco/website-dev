@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "Jakarta-Regular";
+	src: url("/public/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Jakarta-Medium";
+	src: url("/public/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Jakarta-Semibold";
+	src: url("/public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+
+/* Footer Container */
+.footbar {
+  width: 100%;
+  background-color: white;
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid #e0e0e0; /* 🔧 Tambah garis abu-abu atas */
+}
+
+.foot-font-semibold {
+  display: flex;
+  flex-direction: column;  /* Ini penting! Agar ikon di bawah teks */
+  align-items: right;      /* Posisikan ke tengah */
+  font-family: "Jakarta-Semibold";
+  font-size: 16px;
+  color: black;
+  width: 640px;
+  text-align: right;       /* Agar teks dan icon sejajar tengah */
+  margin: 0;
+}
+
+.foot-font-regular{
+    display: flex;
+  flex-direction: column;  /* Ini penting! Agar ikon di bawah teks */
+  align-items: left;      /* Posisikan ke tengah */
+  font-family: "Jakarta-Regular";
+  font-size: 12px;
+  color: black;
+  width: 640px;
+  text-align: left;       /* Agar teks dan icon sejajar tengah */
+  margin: 0;
+}
+
+/* Social Link Container */
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  margin-top: 0px;
+}
+
+
+/* Setiap Link */
+.social-item {
+  display: flex;
+  align-items: right;
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+  font-family: "Jakarta-Medium";
+  font-size: 16px;
+  /*transition: opacity 0.3s ease;*/
+}
+
+/* Hover efek */
+.social-item:hover {
+  color: #0089d4;
+  text-decoration: none;
+}
+
+/* Gambar ikon */
+.social-item img {
+  width: 24px;       /* Ukuran icon kecil */
+  height: 24px;
+  margin-right: 2px; /* Jarak antara icon dan teks */
+  object-fit: contain;
+  align-items: right;
+}
+
+@media screen and (max-width: 768px){
+    .footbar{
+        flex-direction: column-reverse;
+    }
+    .foot-font-semibold {
+  display: flex;
+  flex-direction: column;  /* Ini penting! Agar ikon di bawah teks */
+  align-items: center;      /* Posisikan ke tengah */
+  text-align: center;       /* Agar teks dan icon sejajar tengah */
+  margin: 0;
+}
+
+.foot-font-regular{
+    display: flex;
+  flex-direction: column;  /* Ini penting! Agar ikon di bawah teks */
+  align-items: center;      /* Posisikan ke tengah */
+  text-align: left;       /* Agar teks dan icon sejajar tengah */
+}
+
+/* Social Link Container */
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 0px;
+}
+}

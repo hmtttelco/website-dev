@@ -3,6 +3,7 @@ import "./Welcome.css";
 import Header from "../../Component/Header/Header";
 import Intro from "../../Segment/Intro/Intro";
 import OurLab from "../../Segment/OurLab/OurLab";
+import Footer from "../../Component/Footer/Footer";
 import ArticleTile from "../../Component/ArticleTile/ArticleTile";
 import { useEffect } from "react";
 const Welcome = () => {
@@ -10,7 +11,7 @@ const Welcome = () => {
 		document.title = "Himpunan Mahasiswa Teknik Telekomunikasi"; // Change the window title here
 	}, []);
 	return (
-		<div className="base">
+		<div className="base" >
 			<Header />
 			<div className="welcome">
 				<p className="welcome-text">PERTAMA, TERBAIK,</p>
@@ -27,6 +28,7 @@ const Welcome = () => {
 			</div>
 			<Intro />
 			<OurLab />
+			<Footer/>
 			<div>
 			</div>
 		</div>

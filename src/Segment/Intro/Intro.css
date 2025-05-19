@@ -10,8 +10,9 @@
 
 .introbase {
 	background-color: white;
-	padding-top: 16px;
-	padding-bottom: 147px;
+	/*background-image: url('./img/Background.png');*/
+	padding-top: 35px;
+	padding-bottom: 200px;
 }
 .heading {
 	font-size: 54px;
@@ -43,9 +44,10 @@
 }
 
 .aboutus-img {
-	width: 594px;
-	height: 344px;
+	width: 630px;
+  	height: 430px;
 	border-radius: 32px;
+	object-fit: cover;
 }
 
 .viewmore {
@@ -77,3 +79,51 @@ a:hover {
 .text-bold {
 	font-family: "Jakarta-Bold";
 }
+
+@media screen and (max-width: 768px) {
+  /*.introbase {
+    padding: 24px 8px;
+  }*/
+
+  .row-container {
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .heading {
+    font-size: 34px;
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  .bodycopy-landing {
+    width: 80%;
+	height: auto;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 32px;
+    padding: 16px 8px 0px 16px;
+    text-align: center;
+  }
+
+  .aboutus-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+
+  .viewmore {
+	width: 25%;
+	height: 50%;
+    display: block;
+    font-size: 14px;
+    margin: 16px auto;
+    padding: 8px 16px;
+    text-align: center;
+  }
+}
+

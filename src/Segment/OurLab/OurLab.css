@@ -32,7 +32,7 @@ body {
   font-size: 24px;
   font-family: "Jakarta-Bold";
   background: linear-gradient(270deg, white, #009bd8);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 36px;
   text-align: center;
@@ -59,36 +59,38 @@ body {
 }
 
 @media screen and (max-width: 768px){
+  .base-lab {
+  max-width: 768px;
+  height: auto;
+} 
   .heading-lab{
     width: 100%;
     height: auto;
     font-size: 14px;
-    margin-left: 0px;
     margin-right: 15px;
-    text-align: center;
   }
   .sub-heading-lab{
     font-size: 34px;
-    margin-left: 0px;
-    text-align: center;
-
-
   }
-  .bodycopy-lab{
-  
-   max-width: 768px;;
-   font-family: "Jakarta-Regular";
-   color: white;
-   font-size: 15px;
-   text-align: center;
-   margin-top: 36px;
-   line-height: 1.5;
-  }
+
+ .bodycopy-lab {
+  font-family: "Jakarta-Regular";
+  color: white;
+  font-size: 16px;
+  text-align: justify; /* 👈 membuat teks rata kanan kiri */
+  margin: 36px auto;    /* 👈 margin atas-bawah 36px, kiri-kanan auto (untuk center container) */
+  line-height: 1.6;
+  width: 80%;           /* 👈 jangan terlalu sempit */
+  max-width: 600px;     /* 👈 batas atas agar tetap bagus di layar besar */
+}
+
   .center {
-  margin-left: 72px;
-  margin-right: 72px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
   .lab-box-row{
+    max-width: 768px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
   }

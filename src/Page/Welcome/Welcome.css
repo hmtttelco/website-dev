@@ -100,6 +100,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .base {
+    max-width: 768px;
     padding: 0;
   }
 

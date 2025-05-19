@@ -261,6 +261,10 @@
 }
 
 @media screen and (max-width: 768px){
+  .headingKabinet-base{
+    height: auto;
+    margin-bottom: 50px;
+  }
   .heading-kabinet-text {
   font-family: "Jakarta-Bold";
   background: linear-gradient(45deg, #ffff 0%, #0781c4 100%);
@@ -398,6 +402,7 @@
 
 .statistik-base{
   flex-direction: column;
+  max-width: 768px;
   height: auto;
 }
 
@@ -407,7 +412,7 @@
 
 .nomor {
   font-family: "Jakarta-Bold";
-  font-size: 88px;
+  font-size: 80px;
   color: white;
   margin: 0;
 }
@@ -421,7 +426,7 @@
 }
 
 .kebawah {
-  margin: 0px 80px 0px 80px;
+  margin: 0px 50px 0px 50px;
 }
 
 }

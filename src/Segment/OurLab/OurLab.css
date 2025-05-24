@@ -55,12 +55,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 0px;
+  gap: 24px;
 }
 
 @media screen and (max-width: 768px){
   .base-lab {
-  max-width: 768px;
   height: auto;
 } 
   .heading-lab{
@@ -70,6 +69,8 @@ body {
     margin-right: 15px;
   }
   .sub-heading-lab{
+    width: 100%;
+    max-width: 600px;
     font-size: 34px;
   }
 
@@ -77,10 +78,10 @@ body {
   font-family: "Jakarta-Regular";
   color: white;
   font-size: 16px;
-  text-align: justify; /* 👈 membuat teks rata kanan kiri */
+  text-align: center; /* 👈 membuat teks rata kanan kiri */
   margin: 36px auto;    /* 👈 margin atas-bawah 36px, kiri-kanan auto (untuk center container) */
   line-height: 1.6;
-  width: 80%;           /* 👈 jangan terlalu sempit */
+  width: 95%;           /* 👈 jangan terlalu sempit */
   max-width: 600px;     /* 👈 batas atas agar tetap bagus di layar besar */
 }
 
@@ -88,11 +89,11 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-  .lab-box-row{
-    max-width: 768px;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-  }
 
+  .lab-box-row{
+    max-width: 600px;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
 }

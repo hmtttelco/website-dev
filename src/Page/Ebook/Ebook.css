@@ -34,10 +34,20 @@
 
 @media screen and (max-width: 768px){
   .ebook-box{
-    width: 180px;
+    width: 150px;
+    height: auto;
     margin: 10px;
     margin-right: 0px;
   }
+
+  .viewbook-button {
+  border-color: transparent;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 8px;
+  text-decoration: none;
+}
 
   .ebook-tile-container {
   display: flex;
@@ -46,4 +56,7 @@
   width: 100%;
   max-width: 768px; /* Adjust as needed */
   }
+
+  
+
 }

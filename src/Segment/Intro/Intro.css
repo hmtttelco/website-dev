@@ -93,8 +93,9 @@ a:hover {
   }
 
   .heading {
-    font-size: 34px;
+    font-size: 32px;
     margin: 16px 0;
+	margin-right: 10px;
     text-align: center;
   }
 
@@ -103,7 +104,7 @@ a:hover {
 	height: auto;
     font-size: 14px;
     line-height: 28px;
-    margin-left: 32px;
+    margin-left: 18px;
     padding: 16px 8px 0px 16px;
     text-align: center;
   }
@@ -120,6 +121,7 @@ a:hover {
 	width: 25%;
 	height: 50%;
     display: block;
+	border-radius: 12px;
     font-size: 14px;
     margin: 16px auto;
     padding: 8px 16px;

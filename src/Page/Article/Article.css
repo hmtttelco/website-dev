@@ -120,8 +120,9 @@
   -webkit-text-fill-color: transparent;
   font-size: 64px;
   font-family: "Jakarta-Bold";
+  text-align: left;
   /* margin-left: 154px; */
-  margin: 0px 0px 0px 120px;
+  margin-left: 100px;
   /* text-shadow: 0 0 10px #fff, 0 0 20px #009bd8, 0 0 30px #009bd8,
 		0 0 40px #009bd8, 0 0 30px #009bd8, 0 0 20px #009bd8, 0 0 10px #009bd8; */
 }
@@ -130,4 +131,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .article-header {
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
 }

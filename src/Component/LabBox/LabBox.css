@@ -13,8 +13,9 @@
   src: url("/public/fonts/PlusJakartaSans-Italic.ttf") format("truetype");
 }
 .lab-box {
-  width: 500px;
-  height: 400px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.13);
   margin: 32px;
@@ -31,7 +32,7 @@
 .text-bold {
   color: white;
   font-family: "Jakarta-Bold";
-  width: 450px;
+  width: 100%;
   font-size: 26px;
   margin-bottom: 8px;
   /* margin-bottom: 16px; */
@@ -40,7 +41,7 @@
   color: white;
   font-family: "Jakarta-Regular";
   font-size: 14px;
-  width: 400px;
+  width: 100%;
   line-height: 24px;
   text-align: justify;
 }
@@ -49,7 +50,7 @@
   color: white;
   font-family: "Jakarta-Italic";
   font-size: 14px;
-  width: 280px;
+  width: 100%;
   line-height: 1.5;
   margin-top: 15px;
 }
@@ -74,24 +75,28 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.box-placement{
-  flex-direction: column;
-  align-items: center;
+.box-placement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
+
 
 @media screen and (max-width: 768px){
   .lab-box{
-    width: 70%;
+    width: 90%;
     height: auto;
+    padding: 16px;
     flex-direction: column;
-    margin-left: 27px;
   }
   
   .text-bold {
   color: white;
   font-family: "Jakarta-Bold";
   width: auto;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 8px;
   /* margin-bottom: 16px; */
 }
@@ -108,7 +113,7 @@
   color: white;
   font-family: "Jakarta-Italic";
   font-size: 12px;
-  width: 280px;
+  width: 100%;
   line-height: 1.5;
   margin-top: 15px;
 }
@@ -120,10 +125,14 @@
   /* margin-bottom: 18px; */
 }
 
-.box-placement{
-  max-width: 768px; ;
-  height: auto;
-  
+.box-placement {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  max-width: 600px;
+
 }
 
 }

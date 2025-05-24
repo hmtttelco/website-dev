@@ -87,3 +87,64 @@ body {
 	justify-content: center;
 	margin-bottom: 32px;
 }
+
+@media screen and (max-width: 768px) {
+	.sub-heading-lab {
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.heading-lab {
+	font-size: 14px;
+	font-family: "Jakarta-Bold";
+	background: linear-gradient(270deg, white, #009bd8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.center {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.bodycopy-lab {
+	font-family: "Jakarta-Regular";
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 36px;
+	line-height: 2;
+}
+
+.sub-heading-lab-2 {
+	font-size: 32px;
+	/*margin-left: 20;
+	margin-right: 20;*/
+	padding-left: 15;
+	padding-right: 15;
+	text-align: center;
+}
+
+.heading-lab-2 {
+	font-size: 14px;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.bodycopy-lab-2 {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 36px;
+	line-height: 2;
+	margin-bottom: 30px;
+}
+
+.base-lab-2{
+	margin-bottom: 30px;
+}
+
+}

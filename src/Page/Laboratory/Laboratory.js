@@ -81,7 +81,7 @@ const Laboratory = () => {
             <div className="center">
               <p className="bodycopy-lab-2">
                 Laboratorium SPICE berfokus pada bidang pengolahan sinyal digital, keamanan informasi (cybersecurity), serta komputasi 
-                dan rekayasa perangkat lunak dalam konteks sistem komunikasi dan teknik elektro.
+                dan rekayasa perangkat lunak dalam konteks sistem komunikasi.
               </p>
             </div>
             <div className="lab-box-row">

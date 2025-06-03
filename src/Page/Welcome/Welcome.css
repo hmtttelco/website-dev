@@ -17,10 +17,14 @@ body {
   
 }
 .welcome {
+  display: flex;
   margin-top: 48px;
   margin-bottom: 48px;
   text-align: center;
-  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height:90vh;
 }
 
 .welcome-text {
@@ -105,8 +109,11 @@ body {
   }
 
   .welcome {
+   display: flex;
    max-width: 768px;
-   height: auto;
+   height: 75vh;
+   justify-content: center;
+   align-items: center;
 }
   .welcome-text {
     font-size: 32px;

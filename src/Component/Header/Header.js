@@ -18,7 +18,7 @@ const Header = () => {
           <a className="nav-list" href="/kabinethmtt">About Us</a>
           <a className="nav-list" href="/laboratory">Laboratory</a>
           <a className="nav-list" href="/ebook">E-Book</a>
-          <a className="nav-list" href="/article">Article</a>
+          <a className="nav-list" href="https://medium.com/@hmtt.telco">Article</a>
           <a className="nav-list-bold" href="#">Shop</a>
         </div>
 

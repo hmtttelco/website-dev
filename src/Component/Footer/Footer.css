@@ -27,12 +27,12 @@
 .foot-font-semibold {
   display: flex;
   flex-direction: column;  /* Ini penting! Agar ikon di bawah teks */
-  align-items: right;      /* Posisikan ke tengah */
+  align-items: center;      /* Posisikan ke tengah */
   font-family: "Jakarta-Semibold";
   font-size: 16px;
   color: black;
-  width: 100%;
-  text-align: right;       /* Agar teks dan icon sejajar tengah */
+  width: 15%;
+  text-align: center;       /* Agar teks dan icon sejajar tengah */
 }
 
 .foot-font-regular{
@@ -45,6 +45,10 @@
   width: 100%;
   text-align: left;       /* Agar teks dan icon sejajar tengah */
   margin: 0;
+}
+
+.foot-credits{
+  font-size: 9.5px;
 }
 
 /* Social Link Container */

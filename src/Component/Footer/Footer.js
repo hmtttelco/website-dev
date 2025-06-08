@@ -7,6 +7,7 @@ const Footer = () => {
   <div className="footbar">
     <div className="foot-font-regular">
     <p>© Himpunan Mahasiswa Teknik Telekomunikasi 2024</p>
+    <p className="foot-credits">Developed by Ridho Alharits, Naili Ikrimah, Naufal Shidiq</p>
     </div>
 
     <div className="foot-font-semibold">

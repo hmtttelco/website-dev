@@ -20,7 +20,6 @@ const OurLab = () => {
 	];
 	return (
 		<div className="base-lab">
-		<div>
 			<p className="heading-lab">LABORATORY</p>
 			<p className="sub-heading-lab">MEET OUR LABORATORY</p>
 			<div className="center">
@@ -33,7 +32,7 @@ const OurLab = () => {
 			</div>
 
 			{/* ✅ Tambahkan wrapper di sini */}
-			<div >
+			<div>
 			{laboratoryList.map((lab, index) => (
 				<LabBox
 				key={index}
@@ -43,7 +42,7 @@ const OurLab = () => {
 				/>
 			))}
 			</div>
-		</div>
+	
 		</div>
 
 	);

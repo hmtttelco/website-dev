@@ -53,8 +53,7 @@ body {
 
 .lab-box-row {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 24px;
 }
 
@@ -92,7 +91,7 @@ body {
 
   .lab-box-row{
     max-width: 600px;
-    width: 80%;
+    width: 50%;
     flex-direction: column;
     align-items: center;
 }

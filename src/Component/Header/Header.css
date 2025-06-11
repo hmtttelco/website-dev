@@ -58,7 +58,7 @@ a {
 }
 
 
-/* Hamburger Icon */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -75,7 +75,7 @@ a {
   border-radius: 2px;
 }
 
-/* Mobile Right Section (e-learning + hamburger) */
+
 .mobile-right {
   display: none;
   align-items: center;
@@ -87,16 +87,18 @@ a {
 .mobile-menu {
   display: none;
   flex-direction: column;
-  background-color: #fff;
+  align-items: center;
+  background-color: #009bd8;
   padding: 12px 16px;
 }
 
 .mobile-menu a {
-  color: #111;
+  color: #fff;
   text-decoration: none;
   padding: 8px 0;
   font-family: "Jakarta-Regular";
 }
+
 
 
 @media (max-width: 768px) {
